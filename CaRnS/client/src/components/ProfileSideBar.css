@@ -1,0 +1,27 @@
+:root {
+    --orange: #e87123;
+  }
+
+.sidebar{
+    font-family: 'redhat';
+    font-size: 28px;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 7%;
+}
+
+.sidebar ul {
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 75px;
+  }
+
+.sidebar a{
+    text-decoration: none;
+    color: inherit;
+}
+.sidebar li:hover{
+    color: var(--orange);
+}

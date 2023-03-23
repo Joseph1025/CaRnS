@@ -1,0 +1,52 @@
+.listing-card{
+    border-radius: 50px;
+    padding-top: 20px;
+    height: 350px;
+    position: relative;
+    display: flex;
+}
+.single-left{
+    display: flex;
+    flex-direction: column;
+}
+.listing-image{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    width: 380px;
+    height: 310px;
+    border: solid 2px #bbbbbb;
+    border-radius: 10px;
+}
+
+.car-img{
+    margin: auto
+}
+.listing-info{
+    width: 550px;
+    margin-left: auto;
+    margin-top: 35px;
+}
+
+.vendor-listing-card{
+    font-family: 'redhat';
+}
+
+.vendor-listing-card input{
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 8px;
+}
+
+.vendor-listing-card textarea{
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 8px;
+}
+
+.delete-button{
+    position: absolute;
+    top : 15px;
+    right: 15px;
+    cursor: pointer;
+}

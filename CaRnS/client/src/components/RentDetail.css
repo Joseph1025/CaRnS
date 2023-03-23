@@ -1,0 +1,38 @@
+.rentdetail{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.rentdetail-container{
+    box-sizing: border-box;
+    height: 600px;
+    display: flex;
+    gap: 60px;
+}
+
+.rentlistingimg{
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    height: 300px;
+    width: 500px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.rentDetail-left{
+    display: flex;
+    flex-direction: column;
+
+}
+.rentDetail-right{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.rentDetail-info{
+    font-family: 'redhat_light';
+}

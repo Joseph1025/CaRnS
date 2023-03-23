@@ -1,0 +1,50 @@
+.history-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    top: 12%;
+    left: 25%;
+    position: absolute;
+    height: 775px;
+    width: 950px;
+    gap: 30px;
+}
+
+.history-title{
+    display: flex;
+    flex-direction: column;
+    font-family: 'montserrat';
+    padding-left: 15px;
+    gap: 10px
+}
+
+
+.history-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+    font-family: 'redhat';
+}
+
+.history-content{
+    display:flex;
+}
+
+.history-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.history-type{
+    font-family: 'montserrat';
+    margin-left: 15px;
+}
+
+.history-price{
+    font-family: "redhat";
+    margin-left: 15px;
+}
+
+

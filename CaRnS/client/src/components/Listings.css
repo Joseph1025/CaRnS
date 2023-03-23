@@ -1,0 +1,30 @@
+.listings{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    position: absolute;
+    left : 23.5%;
+}
+
+.listingCardcontainer{
+    box-sizing: border-box;
+    width: 48.7%;
+}
+
+.listingCard{
+    height: 350px;
+}
+
+.listings a{
+    text-decoration: none;
+}
+
+.listingimg{
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    height: 250px;
+    padding-top: 25px;
+    border-radius: 10px;
+}

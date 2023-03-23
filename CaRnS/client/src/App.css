@@ -1,0 +1,32 @@
+@font-face {
+  font-family: montserrat;
+  font-weight: bold;
+  src: url("./assets/fonts/montserrat.ttf");
+}
+
+@font-face {
+  font-family: montserrat_light;
+  src: url("./assets/fonts/montserrat.ttf");
+}
+
+@font-face {
+  font-family: redhat;
+  font-weight: bolder;
+  src: url("./assets/fonts/redhattext.ttf");
+}
+
+@font-face {
+  font-family: redhat_light;
+  src: url("./assets/fonts/redhattext.ttf");
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.backArrow{
+  position: absolute;
+  top: 30px;
+  left: 150px;
+}

@@ -1,0 +1,10 @@
+.vendor-history-content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.vendor-history-price{
+    margin-top: 150px;
+}
+

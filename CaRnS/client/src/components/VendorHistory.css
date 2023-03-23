@@ -1,0 +1,10 @@
+.vendor-history{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    top: 12%;
+    position: absolute;
+    height: 775px;
+    width: 950px;
+    gap: 30px;
+}

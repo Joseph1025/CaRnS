@@ -1,0 +1,64 @@
+:root {
+    --orange: #e87123;
+  }
+
+.listing-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    top: 12%;
+    left: 25%;
+    position: absolute;
+    height: 775px;
+    width: 950px;
+    gap: 30px;
+}
+
+.page-header{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.listing-page-title{
+    color: inherit;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'montserrat';
+    flex: 1;
+}
+
+.rentToggle{
+    font-size: 20px;
+    border: solid 1px black;
+    padding: 8px;
+    border-radius: 10px;
+}
+.listing-container a{
+    text-decoration: none;
+    color: inherit;
+    font-family: 'redhat';
+    font-size: 28px;
+}
+
+
+.newListing{
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    border: solid 2px var(--orange);
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: var(--orange);
+}
+
+.newListing:hover {
+    background-color: #eeeeee;
+}
+
+.rentToggle:hover{
+    border-color: var(--orange);
+    color: var(--orange)
+}

@@ -1,0 +1,38 @@
+.buydetail{
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.buydetail-container{
+    box-sizing: border-box;
+    height: 600px;
+    display: flex;
+    gap: 60px;
+}
+
+.buylistingimg{
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    height: 300px;
+    width: 500px;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.buyDetail-left{
+    display: flex;
+    flex-direction: column;
+    
+}
+.buyDetail-right{
+    width: 45%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.buyDetail-info{
+    font-family: 'redhat_light';
+}
